@@ -55,7 +55,7 @@ if kubectl get pod -n pachyderm "$POD_NAME" --ignore-not-found --output name | g
     export UI_IP=10.182.1.50
     export EMBED_CACHE=/nvmefs1/andrew.mendez/chromadb_cache
     export HOST_VOLUME=/nvmefs1/
-    export APP_PY_PATH="/nvmefs1/shared_nb/01 - Users/cyrill.hug/pdk-llm-rag-demo-houston/src/py/app.py"
+    export APP_PY_PATH="/nvmefs1/shared_nb/01 - Users/andrew.mendez/2024/pdk-llm-rag-demo-houston-t4/src/py/app.py"
     sed -e "s|{{UI_PORT}}|$UI_PORT|g" \
        -e "s|{{DB_PATH}}|$DB_PATH|g" \
        -e "s|{{API_PORT}}|$API_PORT|g" \
@@ -78,7 +78,7 @@ else
     export UI_IP=10.182.1.50
     export EMBED_CACHE=/nvmefs1/andrew.mendez/chromadb_cache
     export HOST_VOLUME=/nvmefs1/
-    export APP_PY_PATH="/nvmefs1/shared_nb/01 - Users/cyrill.hug/pdk-llm-rag-demo-houston/src/py/app.py"
+    export APP_PY_PATH="/nvmefs1/shared_nb/01 - Users/andrew.mendez/2024/pdk-llm-rag-demo-houston-t4/src/py/app.py"
     sed -e "s|{{UI_PORT}}|$UI_PORT|g" \
        -e "s|{{DB_PATH}}|$DB_PATH|g" \
        -e "s|{{API_PORT}}|$API_PORT|g" \

@@ -30,7 +30,7 @@ spec:
     - effect: NoSchedule
       key: accelerator
       operator: Equal
-      value: A100-MLDM
+      value: Tesla-T4
   volumes:
   - name: host-volume
     hostPath:
